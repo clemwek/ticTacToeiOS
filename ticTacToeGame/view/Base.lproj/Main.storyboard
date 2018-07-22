@@ -115,7 +115,7 @@
                                                 </constraints>
                                                 <state key="normal" image="x"/>
                                                 <connections>
-                                                    <action selector="gameButtonPressed:" destination="Hez-Zw-xdd" eventType="touchUpInside" id="cKw-F8-bJl"/>
+                                                    <action selector="gameButtonPressed:" destination="Hez-Zw-xdd" eventType="touchUpInside" id="Y79-Tb-KdS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7V-If-gkB">
@@ -127,7 +127,7 @@
                                                 </constraints>
                                                 <state key="normal" image="x"/>
                                                 <connections>
-                                                    <action selector="gameButtonPressed:" destination="Hez-Zw-xdd" eventType="touchUpInside" id="1SL-70-xW3"/>
+                                                    <action selector="gameButtonPressed:" destination="Hez-Zw-xdd" eventType="touchUpInside" id="7aK-s9-hB2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mZ-bV-7Sx">
@@ -294,6 +294,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AJb-Bg-DX5"/>
                     </view>
+                    <connections>
+                        <outlet property="button1" destination="Vfh-wJ-gHU" id="9J2-Pk-kwt"/>
+                        <outlet property="button2" destination="s7V-If-gkB" id="ShW-W4-ZFK"/>
+                        <outlet property="button3" destination="2mZ-bV-7Sx" id="GSu-aW-J3T"/>
+                        <outlet property="button4" destination="fDN-wo-aYS" id="si5-Kj-UgB"/>
+                        <outlet property="button5" destination="caW-b3-R7S" id="bhM-EE-ONu"/>
+                        <outlet property="button6" destination="ms1-bx-u6s" id="RnB-8M-i7z"/>
+                        <outlet property="button7" destination="Nh9-Mx-ZaX" id="5m0-AP-DlK"/>
+                        <outlet property="button8" destination="kgO-Zf-sMX" id="qrw-25-Qek"/>
+                        <outlet property="button9" destination="a4l-gB-afb" id="Q1O-lA-0dg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kIv-Xg-Cvw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
